@@ -11,6 +11,8 @@ rm(data_full)
 datetime <- paste(as.Date(data$Date), data$Time)
 data$Datetime <- as.POSIXct(datetime)
 
+#hello change
+
 ## Plot 3
 with(data, {
     plot(Sub_metering_1~Datetime, type="l",
